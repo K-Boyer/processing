@@ -1,0 +1,15 @@
+# mammoth style-map
+# see: https://github.com/mwilliamson/python-mammoth/blob/master/README.md#custom-style-map 
+
+p[style-name='PA:Title'] => p.patitle:fresh
+p[style-name='PA:Subtitle'] => p.pasubtitle:fresh
+p[style-name='PA:Author'] => p.paauthor:fresh
+p[style-name='PA:Abstract'] => p.paabstract:fresh
+p[style-name='PA:Heading1'] => p.paheading1:fresh
+p[style-name='PA:Heading2'] => p.paheading2:fresh
+p[style-name='PA:Heading3'] => p.paheading3:fresh
+p[style-name='PA:Body'] => p.pabody:fresh
+p[style-name='PA:Reference'] => p.pareference:fresh
+p[style-name='PA:Blockquote'] => p.pablockquote:fresh
+p[style-name='PA:Ordered List'] => ol > li:fresh
+p[style-name='Endnote Text'] => p.msendnotetext:fresh
